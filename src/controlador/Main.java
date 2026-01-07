@@ -38,11 +38,14 @@ public void start(Stage primaryStage) {
             Main.class.getResource("/vista/EjercicioCuatro.fxml")
         );
         */
-        /*EJERCICIO QUINTO*/
+        /*EJERCICIO QUINTO
         loader.setLocation(
             Main.class.getResource("/vista/EjercicioQuinto.fxml")
+        );*/
+        /*EJERCICIO SEXTO*/
+        loader.setLocation(
+            Main.class.getResource("/vista/EjercicioSeis.fxml")
         );
-        
         Pane ventana = loader.load();
 
         Scene scene = new Scene(ventana);
