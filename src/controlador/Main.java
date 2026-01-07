@@ -15,11 +15,14 @@ public void start(Stage primaryStage) {
 
     try {
         FXMLLoader loader = new FXMLLoader();
-        
+        /*
         loader.setLocation(
             Main.class.getResource("/vista/EjercicioUno.fxml")
         );
-
+        */
+                loader.setLocation(
+            Main.class.getResource("/vista/EjercicioDos.fxml")
+        );
         Pane ventana = loader.load();
 
         Scene scene = new Scene(ventana);
