@@ -15,7 +15,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import modelo.Suma;
 
-public class SumaControlador implements Initializable {
+public class EjercicioUnoControlador implements Initializable {
 
     @FXML
     private Button btnSumar;

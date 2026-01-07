@@ -14,13 +14,10 @@ public class Main extends Application {
 public void start(Stage primaryStage) {
 
     try {
-        System.out.println(
-            Main.class.getResource("/vista/SumaVista.fxml")
-        );
-
         FXMLLoader loader = new FXMLLoader();
+        
         loader.setLocation(
-            Main.class.getResource("/vista/SumaVista.fxml")
+            Main.class.getResource("/vista/EjercicioUno.fxml")
         );
 
         Pane ventana = loader.load();

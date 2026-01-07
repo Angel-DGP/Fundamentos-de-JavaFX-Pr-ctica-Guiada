@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane id="AnchorPane" prefHeight="290.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.SumaControlador">
+<AnchorPane id="AnchorPane" prefHeight="290.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.EjercicioUnoControlador">
    <children>
       <Button fx:id="btnSumar" layoutX="170.0" layoutY="154.0" mnemonicParsing="false" onAction="#sumar" prefHeight="25.0" prefWidth="185.0" text="Sumar" />
       <TextField fx:id="txtOp1" layoutX="170.0" layoutY="62.0" />
